@@ -1,0 +1,65 @@
+<div id="call-reservation" class="text-center container-fluid">
+    <div class="section-title text-center">
+        <h2>Make a reservation</h2>
+        <hr>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed.</p>
+    </div>
+      <div class="col-md-8 col-md-offset-2">
+        <form name="sentMessage" id="contactForm" novalidate [formGroup]="form" (ngSubmit)="save()">
+          <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label>First Name</label>
+                        <input matInput formControlName="firstName" class="form-control">
+                        <p class="help-block text-danger" *ngIf="form.get('firstName').hasError('required')">This field is required</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label>Last Name</label>
+                        <input matInput formControlName="lastName" class="form-control">
+                        <p class="help-block text-danger" *ngIf="form.get('lastName').hasError('required')">This field is required</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label>Email</label>
+                        <input matInput formControlName="email" class="form-control">
+                        <p class="help-block text-danger" *ngIf="form.get('email').hasError('required')">This field is required</p>
+                        <p class="help-block text-danger" *ngIf="form.get('email').hasError('email')">Email format is not valid</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label>Phone Number</label>
+                    <input matInput formControlName="phoneNumber" class="form-control">
+                    <p class="help-block text-danger" *ngIf="form.get('phoneNumber').hasError('required')">This field is required</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label>How many</label>
+                        <select matInput formControlName="howMany" class="form-control">
+                            <option *ngFor="let item of howMany" [value]="item.value">{{ item.title }}</option>
+                        </select>
+                        <p class="help-block text-danger" *ngIf="form.get('howMany').hasError('min')">This field is required</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label>Date</label>
+                        <input matInput formControlName="date" class="form-control">
+                        <p class="help-block text-danger" *ngIf="form.get('date').hasError('required')">This field is required</p>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label>Message</label>
+                <textarea matInput formControlName="message" class="form-control" rows="4"></textarea>
+                <p class="help-block text-danger" *ngIf="form.get('message').hasError('required')">This field is required</p>
+            </div>
+          <div id="success"></div>
+          <button type="submit" [disabled]="!form.valid" class="btn btn-custom btn-lg">Send Message</button>
+        </form>
+      </div>
+</div>

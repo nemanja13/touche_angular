@@ -1,0 +1,20 @@
+[
+    {
+        "id" : 1,
+        "image" : "assets/img/team/01.jpg",
+        "text" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam.",
+        "name" : "Mike Doe"
+    },
+    {
+        "id" : 2,
+        "image" : "assets/img/team/02.jpg",
+        "text" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam.",
+        "name" : "Chris Doe"
+    },
+    {
+        "id" : 3,
+        "image" : "assets/img/team/03.jpg",
+        "text" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam.",
+        "name" : "Ethan Doe"
+    }
+]

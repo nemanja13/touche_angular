@@ -1,0 +1,142 @@
+[
+    {
+        "id": 1,
+        "menuCategoryId": 1,
+        "name": "Tarte Tatin",
+        "description": "This is a dish you learn to make at school and the teacher tells you the story about Stephanie Tatin creating this by mistake back in 1898 – she was trying to make a traditional apple pie when she accidentally left the apples in the sugar and butter for too long. In a hurry, trying to rescue the dessert, she put the pastry base on top of the browning fruits and then placed the pan in the oven.  A mistake that is loved around the world even today.",
+        "price": 35
+    },
+    {
+        "id": 2,
+        "menuCategoryId": 1,
+        "name": "Boeuf Bourguignon",
+        "description": "If you find yourself in Burgundy, you won’t be short of the opportunity to test the region’s most well known dish, but be warned, there are some strange variations out there. One time in Beaune we experienced the worst (bland and served with spaghetti) and the very best (too many to mention) Bourguignon we have ever tasted.",
+        "price": 30
+    },
+    {
+        "id": 3,
+        "menuCategoryId": 1,
+        "name": "Moules Marinières",
+        "description": "Many a café and brasserie will serve this popular lunch dish.  A big bowl or saucepan of mussels cooked in white wine with shallots and parsley. Served with bread or French fries. The French recipe doesn’t add cream to the sauce (it really doesn’t need it). As with most fish and seafood dishes on a French menu, a glass of Muscadet is the perfect match, but a beer is often seen being sipped alongside this dish and it works. ",
+        "price": 30
+    },
+    {
+        "id": 4,
+        "menuCategoryId": 1,
+        "name": "Blanquette de Veau",
+        "description": "A creamy veal stew made with lots of butter, cream, and carrots. Traditionally the stew is thickened with a roux. And typically it is served with rice. It consistently ranks in the top ten when the French are asked about their favorite dish. ",
+        "price": 25
+    },
+    {
+        "id": 5,
+        "menuCategoryId": 1,
+        "name": "Soupe à L’oignon (French onion soup)",
+        "description": "French onion soup is made with meat stock and browned onions garnished with gratinéed croutons and cheese on top. It is very filling so good for lunch if you are spending the day doing some sightseeing. It’s a deeply flavoursome broth-like soup, hearty for a winter’s day.",
+        "price": 45
+    },
+    {
+        "id": 6,
+        "menuCategoryId": 2,
+        "name": "Steak Tartare",
+        "description": "Steak tartare is made from finely chopped or minced raw beef or horsemeat. It is often served with onions, capers and seasonings, sometimes with a raw egg yolk on the top. Most restaurants will serve it ‘deconstructed’ for you to mix to your own liking, but occasionally you will find it served as a premixed patty of meat.",
+        "price": 35
+    },
+    {
+        "id": 7,
+        "menuCategoryId": 2,
+        "name": "Cassoulet",
+        "description": "Cassoulet is a rich, slow-cooked casserole originating in the south of France. Traditionally containing duck, garlic sausage, pork skin and white beans, nowadays you’ll find any kind of cassoulet on menus – sometimes just sausage, sometimes beef. The dish is named after its traditional cooking vessel, the cassole, a deep, round, earthenware pot with slanting sides.",
+        "price": 30
+    },
+    {
+        "id": 8,
+        "menuCategoryId": 2,
+        "name": "Confit de Canard",
+        "description": "Quite simply, duck cooked in its own fat. This is a traditional dish of south west France. Often served plain it can also arrive in a rich sauce containing cherries, red wine or orange. You’ll most commonly find it sold in cans or jars in the shops and supermarkets.",
+        "price": 30
+    },
+    {
+        "id": 9,
+        "menuCategoryId": 2,
+        "name": "Bouillabaisse",
+        "description": "An iconic Provencal dish from Marseille. It includes shellfish and at least three different types of fish, and is infused with saffron. It should be served with rouille (garlic and cayenne mayonnaise) that is spread on grilled bread or croutons. If you love seafood then you will adore a good Bouillabaisse, especially one made near a fishing village. How to spot a bouillabaisse from a fish stew: the bouillabaisse will always contain chunks of fish and seafood.",
+        "price": 25
+    },
+    {
+        "id": 10,
+        "menuCategoryId": 2,
+        "name": "Pissaladière",
+        "description": "Here is something you can order whilst you are perusing the French dishes on the menu enjoying your aperitif.  In short a pissaladière is a small pizza with onion, olives, and anchovies. Originating from Nice, the base is an almost pureed onion that has been caramelized. Believe it or not, this was once early morning fayre!",
+        "price": 45
+    },
+    {
+        "id": 11,
+        "menuCategoryId": 3,
+        "name": "Fondue Savoyarde",
+        "description": "Savoie tradition says that if your bread falls off the fork into the fondue, you must buy the next drink!  Another melted cheese specialty, although originally from Switzerland is Raclette. Using a raclette machine, you melt the cheese over baked potatoes, ham and salami.",
+        "price": 35
+    },
+    {
+        "id": 12,
+        "menuCategoryId": 3,
+        "name": "Tartiflette",
+        "description": "While we are on the subject of mountain food, we mustn’t forget Tartiflette. Savoie and Haute Savoie are home to this piece of carb heaven. This iconic French menu item is a luxurious potato dish made with melted Reblochon cheese, lardons and onion, eaten as it comes.",
+        "price": 30
+    },
+    {
+        "id": 13,
+        "menuCategoryId": 3,
+        "name": "Coq au Vin",
+        "description": "Somewhat bastardised in the UK as any old chicken casserole, an authentic coq au vin is worth tracking down. At its heart this is simply chicken braised in red wine with bacon, butter, mushrooms and beef stock.",
+        "price": 30
+    },
+    {
+        "id": 14,
+        "menuCategoryId": 3,
+        "name": "Coquilles Saint-Jacques (Gratinéed scallops)",
+        "description": "This luxurious scallop dish is made by poaching them in white wine, topped with mushroom purée, covered with a sauce made of the scallop poaching liquid. Quite often they’ll be topped with breadcrumbs and Gruyere before being flashed under a hot grill",
+        "price": 25
+    },
+    {
+        "id": 15,
+        "menuCategoryId": 3,
+        "name": "Escargots",
+        "description": "We had to sneak them in somewhere. The most stereotypical of French dishes. You may have a marmite relationship with these slimy creatures but when they are cooked in butter, garlic, and parsley you wouldn’t know you were eating snails. They are delicious and should definitely be on a foodie bucket list.",
+        "price": 45
+    },
+    {
+        "id": 16,
+        "menuCategoryId": 4,
+        "name": "Soufflé",
+        "description": "Whether it’s a cheese soufflé you have as an entrée or a chocolate one for dessert, a soufflé is invariably worth that 15-20 minute wait! And who’d have thought it’s a dish that dates back to the early decades of the 18th century.",
+        "price": 35
+    },
+    {
+        "id": 17,
+        "menuCategoryId": 4,
+        "name": "Foie Gras",
+        "description": "This is one of the more controversial French dishes, yet it is so popular in France. Made from the liver of a deliberately fattened duck or goose it is a dish of significant gastronomical heritage in France. In restaurants you’ll find it offered either as a mousse, parfait, or pâté. Its depth of flavour compliments so many dishes that you’ll note its inclusion as an accompaniment to other menu items too.",
+        "price": 30
+    },
+    {
+        "id": 18,
+        "menuCategoryId": 4,
+        "name": "Crêpes",
+        "description": "Perhaps the most versatile of dishes on this list, the crêpe originated in Brittany but is eaten across France and French speaking nations. The crêpe can be savoury (known then as a galette) or sweet. It can also be one of the simplest treats with a sprinkling of sugar or one of the most spectacular – the renowned crepe Suzette.",
+        "price": 30
+    },
+    {
+        "id": 19,
+        "menuCategoryId": 4,
+        "name": "Salade niçoise",
+        "description": "As you may expect, this classic French salad originates from Nice. The perfect lunch that often showcases the best of local produce, wherever you are in France. To a base of lettuce is added fresh tomatoes, boiled eggs, tuna (canned or freshly grilled), Niçoise Cailletier olives and anchovies.",
+        "price": 25
+    },
+    {
+        "id": 20,
+        "menuCategoryId": 4,
+        "name": "Crème brûlée",
+        "description": "A custard based dessert topped with a contrasting layer of hard caramel",
+        "price": 45
+    }
+]

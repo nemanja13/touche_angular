@@ -1,0 +1,35 @@
+<div id="portfolio">
+  <app-gallery-header></app-gallery-header>
+  <div class="container">
+    <div class="row">
+      <div class="categories">
+        <ul class="cat">
+          <li>
+            <ol class="type">
+              <li *ngFor="let item of filterData; let i = index">
+                <a *ngIf="i == 0; else notactive" href="#" attr.data-filter="{{item.filter}}" class="active">{{ item.title | uppercase }}</a>
+                <ng-template #notactive>
+                  <a href="#" attr.data-filter=".{{item.filter}}">{{ item.title | uppercase }}</a>
+                </ng-template>
+              </li>
+            </ol>
+          </li>
+        </ul>
+        <div class="clearfix"></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="portfolio-items">
+        <div *ngFor="let data of items" class="col-sm-6 col-md-4 col-lg-4 {{ filterData[data.typeId].filter }}">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="{{ data.image }}" title="{{data.title}}" data-lightbox-gallery="gallery1">
+              <div class="hover-text">
+                <h4>{{data.title}}</h4>
+              </div>
+              <img src="{{ data.thumbnail }}" class="img-responsive" alt="Project Title"> </a> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
