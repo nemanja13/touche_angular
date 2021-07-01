@@ -1,18 +1,18 @@
 [
     {
         "id": 1,
-        "title": "BREAKFAST & STARTERS"
+        "title": "Breakfast & starters"
     },
     {
         "id": 2,
-        "title": "MAIN COURSE"
+        "title": "Main course"
     },
     {
         "id": 3,
-        "title": "DINNER"
+        "title": "Dinner"
     },
     {
         "id": 4,
-        "title": "COFFEE & DRINKS"
+        "title": "Coffee & Drinks"
     }
 ]

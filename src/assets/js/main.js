@@ -68,14 +68,16 @@ function main() {
               });
               return false;
           });
+
+          // Nivo Lightbox 
+      $('.portfolio-item a').nivoLightbox({
+          effect: 'slideDown',  
+          keyboardNav: true,                            
+        }); 
   
       });
     
-      // Nivo Lightbox 
-      $('.portfolio-item a').nivoLightbox({
-              effect: 'slideDown',  
-              keyboardNav: true,                            
-          });
+      
 
           $(document).on('click', '#menu a' ,function(){
             var loc = window.location.href

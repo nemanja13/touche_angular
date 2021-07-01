@@ -3,84 +3,84 @@
         "id": 1,
         "image": "assets/img/portfolio/01-large.jpg",
         "thumbnail": "assets/img/portfolio/01-small.jpg",
-        "title": "Delicious Dish",
+        "title": "Tarte Tatin",
         "typeId": 1
     },
     {
         "id": 2,
         "image": "assets/img/portfolio/02-large.jpg",
         "thumbnail": "assets/img/portfolio/02-small.jpg",
-        "title": "Delicious Dish",
+        "title": "Boeuf Bourguignon",
         "typeId": 2
     },
     {
         "id": 3,
         "image": "assets/img/portfolio/03-large.jpg",
         "thumbnail": "assets/img/portfolio/03-small.jpg",
-        "title": "Delicious Dish",
+        "title": "Moules Marinières",
         "typeId": 3
     },
     {
         "id": 4,
         "image": "assets/img/portfolio/04-large.jpg",
         "thumbnail": "assets/img/portfolio/04-small.jpg",
-        "title": "Delicious Dish",
+        "title": "Blanquette de Veau",
         "typeId": 1
     },
     {
         "id": 5,
         "image": "assets/img/portfolio/05-large.jpg",
         "thumbnail": "assets/img/portfolio/05-small.jpg",
-        "title": "Delicious Dish",
+        "title": "Steak Tartare",
         "typeId": 2
     },
     {
         "id": 6,
         "image": "assets/img/portfolio/06-large.jpg",
         "thumbnail": "assets/img/portfolio/06-small.jpg",
-        "title": "Delicious Dish",
+        "title": "Cassoulet",
         "typeId": 3
     },
     {
         "id": 7,
         "image": "assets/img/portfolio/07-large.jpg",
         "thumbnail": "assets/img/portfolio/07-small.jpg",
-        "title": "Delicious Dish",
+        "title": "Confit de Canard",
         "typeId": 1
     },
     {
         "id": 8,
         "image": "assets/img/portfolio/08-large.jpg",
         "thumbnail": "assets/img/portfolio/08-small.jpg",
-        "title": "Delicious Dish",
+        "title": "Bouillabaisse",
         "typeId": 2
     },
     {
         "id": 9,
         "image": "assets/img/portfolio/09-large.jpg",
         "thumbnail": "assets/img/portfolio/09-small.jpg",
-        "title": "Delicious Dish",
+        "title": "Pissaladière",
         "typeId": 3
     },
     {
         "id": 10,
         "image": "assets/img/portfolio/10-large.jpg",
         "thumbnail": "assets/img/portfolio/10-small.jpg",
-        "title": "Delicious Dish",
+        "title": "Fondue Savoyarde",
         "typeId": 1
     },
     {
         "id": 11,
         "image": "assets/img/portfolio/11-large.jpg",
         "thumbnail": "assets/img/portfolio/11-small.jpg",
-        "title": "Delicious Dish",
+        "title": "Tartiflette",
         "typeId": 2
     },
     {
         "id": 12,
         "image": "assets/img/portfolio/12-large.jpg",
         "thumbnail": "assets/img/portfolio/12-small.jpg",
-        "title": "Delicious Dish",
+        "title": "Coq au Vin",
         "typeId": 3
     }
 ]

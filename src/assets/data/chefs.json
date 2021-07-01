@@ -2,19 +2,19 @@
     {
         "id" : 1,
         "image" : "assets/img/team/01.jpg",
-        "text" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam.",
+        "text" : "I’m Mike Doe, personal chef, I started From A Chef’s Kitchen in 2002 to share my passion for cooking and food. My recipes are inspired by ingredients I already have on hand or what’s in season at the market.",
         "name" : "Mike Doe"
     },
     {
         "id" : 2,
         "image" : "assets/img/team/02.jpg",
-        "text" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam.",
+        "text" : "I’m Chris Doe. Without a doubt, what I love most about being a personal chef is when my clients tell me they can feel the love and care that went into what I prepared for them and what a positive difference I make in their lives. ",
         "name" : "Chris Doe"
     },
     {
         "id" : 3,
         "image" : "assets/img/team/03.jpg",
-        "text" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam.",
+        "text" : "I’m Ethan Doe. My passion for travel–especially throughout the European and Mediterranean regions–is reflected in my cooking.  While traveling, I like to immerse myself in the local cuisine.",
         "name" : "Ethan Doe"
     }
 ]

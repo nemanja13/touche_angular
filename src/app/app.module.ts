@@ -25,6 +25,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ReadMorePipe } from './pipes/read-more.pipe';
 import { PriceFormationPipe } from './pipes/price-formation.pipe';
 import { NotFoundComponent } from './not-found/not-found.component';
+import { AuthorComponent } from './author/author.component';
+import { GalleryContentComponent } from './gallery/gallery-content/gallery-content.component';
 
 const routes: Routes = [
   {
@@ -55,6 +57,11 @@ const routes: Routes = [
         path: "contact",
         component: ContactComponent,
         data: { animation: 'Contact Page' }
+      },
+      {
+        path: "author",
+        component: AuthorComponent,
+        data: { animation: 'Author Page' }
       }
     ]
   },
@@ -82,7 +89,9 @@ const routes: Routes = [
     AboutComponent,
     ReadMorePipe,
     PriceFormationPipe,
-    NotFoundComponent
+    NotFoundComponent,
+    AuthorComponent,
+    GalleryContentComponent
   ],
   imports: [
     BrowserModule,

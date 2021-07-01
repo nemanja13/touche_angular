@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { SOCIAL } from 'src/app/config/settings/social';
 
 @Component({
   selector: 'app-footer',
@@ -8,6 +9,8 @@ import { Component, OnInit } from '@angular/core';
 export class FooterComponent implements OnInit {
 
   constructor() { }
+
+  public social: any[] = SOCIAL;
 
   ngOnInit(): void {
   }
