@@ -53,7 +53,7 @@ export class ReservationFormComponent implements OnInit {
       firstName: this.formBuilder.control("", [Validators.required]),
       lastName: this.formBuilder.control("", [Validators.required]),
       email: this.formBuilder.control("", [Validators.required, Validators.email]),
-      phoneNumber: this.formBuilder.control("", [Validators.required]),
+      phoneNumber: this.formBuilder.control("", [Validators.required, Validators.pattern("[+]*[(]{0,1}[0-9]{1,4}[)]{0,1}[-\s\./0-9]*$")]),
       howMany: this.formBuilder.control("0", [Validators.required, Validators.min(1)]),
       date: this.formBuilder.control("", [Validators.required]),
       message: this.formBuilder.control("", [Validators.required])
@@ -80,7 +80,8 @@ export class ReservationFormComponent implements OnInit {
     if(this.form.valid){
       let data = this.prepareDataToSend();
       console.log(data)
-      alert('I wrote the data in the console')
+      alert('I wrote the data in the console');
+      this.init();
     }
     else{
       alert("Form is not valid!");

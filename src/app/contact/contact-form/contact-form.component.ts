@@ -45,7 +45,8 @@ export class ContactFormComponent implements OnInit {
     if(this.form.valid){
       let data = this.prepareDataToSend();
       console.log(data)
-      alert('I wrote the data in the console')
+      alert('I wrote the data in the console');
+      this.init();
     }
     else{
       alert("Form is not valid!");

@@ -34,6 +34,7 @@
                         <label>Phone Number</label>
                     <input matInput formControlName="phoneNumber" class="form-control">
                     <p class="help-block text-danger" *ngIf="form.get('phoneNumber').hasError('required')">This field is required</p>
+                    <p class="help-block text-danger" *ngIf="form.get('phoneNumber').hasError('pattern')">This is not valid format for phone number</p>
                     </div>
                 </div>
                 <div class="col-md-6">
